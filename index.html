@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>eTicket-compra de boletos para eventos en Colombia</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="pagina">
+    <header class="encabezado">
+      <div class="contenido">
+        <div class="logo">
+          <img src="/assets/logoe.png" alt="Logo eTicket" class="img-fluid">
+        </div>
+        <div class="search-bar">
+          <input type="text" class="search-input" placeholder="Buscar artistas y/o eventos">
+          <button class="search-button">Buscar</button>
+        </div>
+        <div class="auth-links">
+          <span class="auth-link">Iniciar sesión</span>
+          <span class="auth-link">Regístrate</span>
+        </div>
+      </div>
+    </header>
+
+    <section class="categorias">
+      <div class="categoria">Conciertos</div>
+      <div class="categoria">Deportes</div>
+      <div class="categoria">Teatro</div>
+      <div class="categoria">Culturales</div>
+      <div class="categoria">Comedia</div>
+      <div class="categoria">Familiares</div>
+      <div class="categoria">Congresos</div>
+      <div class="categoria">Festivales</div>
+      <div class="categoria">Puntos de venta</div>
+      <div class="categoria">Ayuda</div>
+    </section>
+
+    <section class="carrusel-container">
+      <section id="carrusel" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="assets/img1.jpg" class="d-block w-100" alt="Imagen 1">
+          </div>
+          <div class="carousel-item">
+            <img src="assets/img2.jpg" class="d-block w-100" alt="Imagen 2">
+          </div>
+          <div class="carousel-item">
+            <img src="assets/img3.jpg" class="d-block w-100" alt="Imagen 3">
+          </div>
+          <div class="carousel-item">
+            <img src="assets/img4.jpg" class="d-block w-100" alt="Imagen 4">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carrusel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carrusel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Siguiente</span>
+        </a>
+      </section>
+    </section>
+
+    <section class="categorias-inferiores">
+      <div class="categoria-inferior">Todos los eventos</div>
+      <div class="categoria-inferior">Todo Colombia</div>
+    </section>
+
+    <section class="imagen-inferior">
+      <img src="assets/img5.jpg" alt="Imagen Promocional" class="imagen-ajustada">
+    </section>
+
+    <section class="eventos">
+      <div class="categoria-evento">Eventos en tu ciudad</div>
+    </section>
+
+    <section class="eventos-container-wrapper">
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4">
+        <div class="col">
+          <div class="card">
+            <img src="assets/evento1.jpg" class="card-img-top" alt="Evento 1">
+            <div class="card-body">
+              <h5 class="card-title">APOLO 7</h5>
+              <p class="card-text">BOGOTÁ</p>
+              <a href="#" class="btn btn-primary">Ver evento</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card">
+            <img src="assets/evento2.jpg" class="card-img-top" alt="Evento 2">
+            <div class="card-body">
+              <h5 class="card-title">BARRANQUILLA BRILLA CON ELITE</h5>
+              <p class="card-text">BARRANQUILLA</p>
+              <a href="#" class="btn btn-primary">Ver evento</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card">
+            <img src="assets/evento3.jpg" class="card-img-top" alt="Evento 3">
+            <div class="card-body">
+              <h5 class="card-title">LEO RIZZI</h5>
+              <p class="card-text">BOGOTÁ</p>
+              <a href="#" class="btn btn-primary">Ver evento</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card">
+            <img src="assets/evento4.jpg" class="card-img-top" alt="Evento 4">
+            <div class="card-body">
+              <h5 class="card-title">VINO AL PARQUE V EDICIÓN DESPIERTA TUS SENTIDOS</h5>
+              <p class="card-text">BOGOTÁ</p>
+              <a href="#" class="btn btn-primary">Ver evento</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card">
+            <img src="assets/evento5.jpg" class="card-img-top" alt="Evento 5">
+            <div class="card-body">
+              <h5 class="card-title">ANDREA BOCELLI</h5>
+              <p class="card-text">BOGOTÁ</p>
+              <a href="#" class="btn btn-primary">Ver evento</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card">
+            <img src="assets/evento6.jpg" class="card-img-top" alt="Evento 6">
+            <div class="card-body">
+              <h5 class="card-title">ANDRÉS CEPEDA</h5>
+              <p class="card-text">MULTIPLES CIUDADES</p>
+              <a href="#" class="btn btn-primary">Ver evento</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card">
+            <img src="assets/evento7.jpg" class="card-img-top" alt="Evento 7">
+            <div class="card-body">
+              <h5 class="card-title">AVENTURA</h5>
+              <p class="card-text">MULTIPLES CIUDADES</p>
+              <a href="#" class="btn btn-primary">Ver evento</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card">
+            <img src="assets/evento8.jpg" class="card-img-top" alt="Evento 8">
+            <div class="card-body">
+              <h5 class="card-title">BRESH</h5>
+              <p class="card-text">MULTIPLES CIUDADES</p>
+              <a href="#" class="btn btn-primary">Ver evento</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card">
+            <img src="assets/evento9.jpg" class="card-img-top" alt="Evento 9">
+            <div class="card-body">
+              <h5 class="card-title">DRUNK COMEDY</h5>
+              <p class="card-text">BOGOTÁ</p>
+              <a href="#" class="btn btn-primary">Ver evento</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card">
+            <img src="assets/evento10.jpg" class="card-img-top" alt="Evento 10">
+            <div class="card-body">
+              <h5 class="card-title">FERXXO</h5>
+              <p class="card-text">MEDELLIN</p>
+              <a href="#" class="btn btn-primary">Ver evento</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card">
+            <img src="assets/evento11.jpg" class="card-img-top" alt="Evento 11">
+            <div class="card-body">
+              <h5 class="card-title">FESTIVAL ESTÉREO PICNIC 2025 </h5>
+              <p class="card-text">BOGOTÁ</p>
+              <a href="#" class="btn btn-primary">Ver evento</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="assets/evento12.jpg" class="card-img-top" alt="Evento 12">
+            <div class="card-body">
+              <h5 class="card-title">FONSECA</h5>
+              <p class="card-text">MULTIPLES CIUDADES</p>
+              <a href="#" class="btn btn-primary">Ver evento</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="assets/evento13.jpg" class="card-img-top" alt="Evento 13">
+            <div class="card-body">
+              <h5 class="card-title">GRATA 2025</h5>
+              <p class="card-text">CARTAGENA</p>
+              <a href="#" class="btn btn-primary">Ver evento</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="assets/evento14.jpg" class="card-img-top" alt="Evento 14">
+            <div class="card-body">
+              <h5 class="card-title">HAASH</h5>
+              <p class="card-text">BOGOTA</p>
+              <a href="#" class="btn btn-primary">Ver evento</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="assets/evento15.jpg" class="card-img-top" alt="Evento 15">
+            <div class="card-body">
+              <h5 class="card-title">I LOVE 90S</h5>
+              <p class="card-text">MULTIPLES CIUDADES</p>
+              <a href="#" class="btn btn-primary">Ver evento</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="assets/evento16.jpg" class="card-img-top" alt="Evento 16">
+            <div class="card-body">
+              <h5 class="card-title">JUANPIS LIVE SHOW:MAKE COLOMBIA GREAT AGAIN</h5>
+              <p class="card-text">BOGOTÁ</p>
+              <a href="#" class="btn btn-primary">Ver evento</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="assets/evento17.jpg" class="card-img-top" alt="Evento 17">
+            <div class="card-body">
+              <h5 class="card-title">LES JEUDIS DU PASTEUR:SINFONIA NO.9 BEETHOVEN</h5>
+              <p class="card-text">BOGOTÁ</p>
+              <a href="#" class="btn btn-primary">Ver evento</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="assets/evento18.jpg" class="card-img-top" alt="Evento 18">
+            <div class="card-body">
+              <h5 class="card-title">MACA & GERO</h5>
+              <p class="card-text">BOGOTÁ</p>
+              <a href="#" class="btn btn-primary">Ver evento</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="assets/evento19.jpg" class="card-img-top" alt="Evento 19">
+            <div class="card-body">
+              <h5 class="card-title">MAREH</h5>
+              <p class="card-text">BOGOTÁ</p>
+              <a href="#" class="btn btn-primary">Ver evento</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="assets/evento20.jpg" class="card-img-top" alt="Evento 20">
+            <div class="card-body">
+              <h5 class="card-title">NASA HISTOIRES</h5>
+              <p class="card-text">BOGOTÁ</p>
+              <a href="#" class="btn btn-primary">Ver evento</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="assets/evento21.jpg" class="card-img-top" alt="Evento 21">
+            <div class="card-body">
+              <h5 class="card-title">NEW YEAR EVE PARTY</h5>
+              <p class="card-text">GUACHACA</p>
+              <a href="#" class="btn btn-primary">Ver evento</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="assets/evento22.jpg" class="card-img-top" alt="Evento 22">
+            <div class="card-body">
+              <h5 class="card-title">OHLAVILLE</h5>
+              <p class="card-text">BOGOTÁ</p>
+              <a href="#" class="btn btn-primary">Ver evento</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="assets/evento23.jpg" class="card-img-top" alt="Evento 23">
+            <div class="card-body">
+              <h5 class="card-title">PAULA ARENAS</h5>
+              <p class="card-text">BOGOTÁ</p>
+              <a href="#" class="btn btn-primary">Ver evento</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="assets/evento24.jpg" class="card-img-top" alt="Evento 24">
+            <div class="card-body">
+              <h5 class="card-title">SHAKIRA</h5>
+              <p class="card-text">MULTIPLES CIUDADES</p>
+              <a href="#" class="btn btn-primary">Ver evento</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="assets/evento25.jpg" class="card-img-top" alt="Evento 25">
+            <div class="card-body">
+              <h5 class="card-title">SIDDHARTHA</h5>
+              <p class="card-text">BOGOTÁ</p>
+              <a href="#" class="btn btn-primary">Ver evento</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="assets/evento26.png" class="card-img-top" alt="Evento 26">
+            <div class="card-body">
+              <h5 class="card-title">V FOR VOLUME</h5>
+              <p class="card-text">BOGOTÁ</p>
+              <a href="#" class="btn btn-primary">Ver evento</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="assets/evento27.jpg" class="card-img-top" alt="Evento 27">
+            <div class="card-body">
+              <h5 class="card-title">VASSAR FERIA</h5>
+              <p class="card-text">BOGOTÁ</p>
+              <a href="#" class="btn btn-primary">Ver evento</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="assets/evento28.jpg" class="card-img-top" alt="Evento 28">
+            <div class="card-body">
+              <h5 class="card-title">ZARZUELA COLOMBIA</h5>
+              <p class="card-text">BOGOTÁ</p>
+              <a href="#" class="btn btn-primary">Ver evento</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <footer>
+      <div class="footer-container">
+        <div class="footer-column">
+          <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Conciertos</a></li>
+            <li><a href="#">Deportes</a></li>
+            <li><a href="#">Teatro</a></li>
+            <li><a href="#">Culturales</a></li>
+            <li><a href="#">Comedia</a></li>
+            <li><a href="#">Familiares</a></li>
+            <li><a href="#">Congresos</a></li>
+            <li><a href="#">Festivales</a></li>
+            <li><a href="#">¡Recoge tus boletos!</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <ul>
+            <li><a href="#">Suscríbete al boletín</a></li>
+            <li><a href="#">Promociones</a></li>
+            <li><a href="#">Vende tus boletos en eticket</a></li>
+            <li><a href="#">Preguntas Frecuentes</a></li>
+            <li><a href="#">Contáctanos</a></li>
+            <li><a href="#">Políticas de Privacidad</a></li>
+            <li><a href="#">Términos y Condiciones</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <ul>
+            <li><a href="#">Atención Telefónica a Clientes</a></li>
+            <li><a href="#">PQRS</a></li>
+            <li><a href="#">PULEP</a></li>
+            <li><a href="#">SIC</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <div class="social-media">
+            <a href="#">Twitter</a>
+            <a href="#">Instagram</a>
+            <a href="#">Facebook</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="footer-bottom-box">
+          <p>© 2024 :: eticket :: Todos los Derechos Reservados :: <a href="https://www.eticket.co/">eticket.co</a></p>
+          <p>#experienciaeticket 😄</p>
+        </div>
+      </div>
+    </footer>
+
+
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <script>
+    $('.carousel').carousel({
+      interval: 3000
+    });
+  </script>
+</body>
+
+</html>
